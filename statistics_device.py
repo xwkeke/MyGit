@@ -105,7 +105,8 @@ def DoWork():
 
                     if CheckTCPMedia(row[3]):
                         sheet.write(index+1,len(row)+3,1)
-                        sheet.write(index+1,len(row)+4,time.time() - b_time) 
+                        sheet.write(index+1,len(row)+4,time.time() - b_time)
+                        time.sleep(0.2) 
                     else:
                         sheet.write(index+1,len(row)+3,0)
                         Dev_NotMedia_tcp = Dev_NotMedia_tcp + 1
@@ -117,7 +118,6 @@ def DoWork():
                     Dev_NotMedia_tcp = Dev_NotMedia_tcp + 1
 
                 index = index+1;
-                time.sleep(0.2)
                     
             #先全部查完tcp  再查udp
             index = 1
@@ -127,6 +127,7 @@ def DoWork():
                     if CheckUDPMedia(row[3]):
                         sheet.write(index+1,len(row)+5,1)
                         sheet.write(index+1,len(row)+6,time.time() - b_time)
+                        time.sleep(0.2)
                     else:
                         sheet.write(index+1,len(row)+5,0)
                         Dev_NotMedia_udp = Dev_NotMedia_udp + 1
@@ -135,7 +136,6 @@ def DoWork():
                     Dev_NotMedia_udp = Dev_NotMedia_udp + 1
 
                 index = index + 1
-                time.sleep(0.2)
 
             detailsFileName = userName[i] + '_details.xls'
             wsheet.save(detailpath + detailsFileName);
