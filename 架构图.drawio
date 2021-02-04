@@ -1,125 +1,131 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T06:53:24.510Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" etag="K3n6uEpcHHvnRDo54ndh" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T07:18:37.352Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" etag="rhF9rj0zGY2MJRzrMg3p" version="14.2.9" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
-    <mxGraphModel dx="713" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="443" dy="1417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-2" value="展现层" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#CCFFFF;" vertex="1" parent="1">
-          <mxGeometry x="270" y="110" width="100" height="80" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-91" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-1000" width="550" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-4" value="通讯层" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#33FF33;" vertex="1" parent="1">
-          <mxGeometry x="270" y="228" width="100" height="80" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-132" value="业务展现层" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-990" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-9" value="服务层" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FF00FF;" vertex="1" parent="1">
-          <mxGeometry x="270" y="320" width="100" height="160" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-133" value="通讯层" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#33FF33;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-872" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-10" value="数据输入源" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#006633;" vertex="1" parent="1">
-          <mxGeometry x="270" y="493" width="100" height="80" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-134" value="服务层" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FF00FF;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-780" width="100" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-38" value="神瞳clos（web）" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCCCFF;" vertex="1" parent="1">
-          <mxGeometry x="456" y="110" width="264" height="80" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-135" value="数据输入源" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#006633;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-607" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#33FF33;" vertex="1" parent="1">
-          <mxGeometry x="399" y="228" width="400" height="80" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-136" value="神瞳clos（web）" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-990" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-44" value="&lt;span&gt;alter&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;(http/https)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#66FFFF;" vertex="1" parent="1">
-          <mxGeometry x="406" y="238" width="120" height="60" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-137" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#33FF33;" vertex="1" parent="1">
+          <mxGeometry x="319" y="-872" width="400" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-45" value="&lt;p style=&quot;line-height: 15.6px&quot;&gt;portal&lt;/p&gt;&lt;p style=&quot;line-height: 15.6px&quot;&gt;（grpc/websocket）&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#33FFFF;" vertex="1" parent="1">
-          <mxGeometry x="540" y="238" width="120" height="60" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-138" value="&lt;span&gt;alter&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;(http/https)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="326" y="-862" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-46" value="其他业务服务&lt;br&gt;（对外服务接口）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#00FFFF;" vertex="1" parent="1">
-          <mxGeometry x="670" y="238" width="120" height="60" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-139" value="&lt;p style=&quot;line-height: 15.6px&quot;&gt;portal&lt;/p&gt;&lt;p style=&quot;line-height: 15.6px&quot;&gt;（grpc/websocket）&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#33FFFF;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-862" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-52" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#33FF99;fillColor=#FF00FF;" vertex="1" parent="1">
-          <mxGeometry x="400" y="320" width="400" height="160" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-140" value="其他业务服务&lt;br&gt;（对外服务接口）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#00FFFF;" vertex="1" parent="1">
+          <mxGeometry x="590" y="-862" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B266FF;" vertex="1" parent="1">
-          <mxGeometry x="400" y="440" width="400" height="40" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-141" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#33FF99;fillColor=#FF00FF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-780" width="400" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-54" value="sql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="436" y="450" width="60" height="20" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-142" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B266FF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-660" width="400" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-55" value="DB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="1">
-          <mxGeometry x="400" y="440" width="20" height="40" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-143" value="sql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="-650" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-56" value="redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="558" y="450" width="60" height="20" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-144" value="DB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-660" width="20" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-57" value="seaweedfs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="697" y="450" width="60" height="20" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-145" value="redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="478" y="-650" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="400" y="320" width="100" height="80" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-146" value="seaweedfs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="617" y="-650" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-59" value="接入代理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#99FF99;" vertex="1" parent="1">
-          <mxGeometry x="400" y="320" width="20" height="80" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-147" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-780" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-60" value="私有tcp协议" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
-          <mxGeometry x="420" y="320" width="80" height="20" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-148" value="接入代理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-780" width="20" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-61" value="http协议" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
-          <mxGeometry x="420" y="340" width="80" height="20" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-149" value="私有tcp协议" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-780" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-62" value="ftps协议" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
-          <mxGeometry x="420" y="360" width="80" height="20" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-150" value="http协议" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-760" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-63" value="......." style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
-          <mxGeometry x="420" y="380" width="80" height="20" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-151" value="ftps协议" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-740" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-64" value="业务驱动服务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#99FF99;" vertex="1" parent="1">
-          <mxGeometry x="529" y="320" width="120" height="20" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-152" value="......." style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-720" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-65" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#99FF99;" vertex="1" parent="1">
-          <mxGeometry x="529" y="350" width="120" height="50" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-153" value="业务驱动服务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="449" y="-780" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-66" value="&lt;span&gt;业务集群&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="558" y="350" width="60" height="20" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-154" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="449" y="-750" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-67" value="XRCD" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
-          <mxGeometry x="529" y="370" width="60" height="15" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-155" value="&lt;span&gt;业务集群&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="478" y="-750" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-68" value="DWSR" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
-          <mxGeometry x="589" y="370" width="60" height="15" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-156" value="XRCD" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="449" y="-730" width="60" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-69" value="BKPD" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
-          <mxGeometry x="529" y="385" width="60" height="15" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-157" value="DWSR" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="509" y="-730" width="60" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-70" value="....." style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
-          <mxGeometry x="589" y="385" width="60" height="15" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-158" value="BKPD" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="449" y="-715" width="60" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-71" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#99FF99;" vertex="1" parent="1">
-          <mxGeometry x="680" y="320" width="120" height="80" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-159" value="....." style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="509" y="-715" width="60" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-72" value="&lt;span&gt;算法引擎&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="709" y="320" width="60" height="20" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-160" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-780" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-73" value="openvino" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
-          <mxGeometry x="680" y="375" width="60" height="25" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-161" value="&lt;span&gt;算法引擎&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="629" y="-780" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-74" value="tf-serving" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
-          <mxGeometry x="740" y="375" width="60" height="25" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-162" value="openvino" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-725" width="60" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-75" value="TensorRT" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
-          <mxGeometry x="680" y="350" width="60" height="25" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-163" value="tf-serving" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-725" width="60" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-76" value="triton" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
-          <mxGeometry x="740" y="350" width="60" height="25" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-164" value="TensorRT" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-750" width="60" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-77" value="存储网关" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="400" y="413" width="400" height="20" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-165" value="triton" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-750" width="60" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-85" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#33FF99;fillColor=#006633;" vertex="1" parent="1">
-          <mxGeometry x="400" y="493" width="400" height="77" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-166" value="存储网关" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-687" width="400" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-86" value="场地工业相机" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CC99FF;" vertex="1" parent="1">
-          <mxGeometry x="400" y="503" width="120" height="60" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-167" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#33FF99;fillColor=#006633;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-607" width="400" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-87" value="场地安检机" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CC99FF;" vertex="1" parent="1">
-          <mxGeometry x="544" y="503" width="120" height="60" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-168" value="场地工业相机" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CC99FF;" vertex="1" parent="1">
+          <mxGeometry x="325" y="-597" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ps379T2DEMAQOAS2OMpo-88" value="其他服务请求" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CC99FF;" vertex="1" parent="1">
-          <mxGeometry x="680" y="503" width="120" height="60" as="geometry" />
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-169" value="场地安检机" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CC99FF;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-597" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-170" value="其他服务请求" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CC99FF;" vertex="1" parent="1">
+          <mxGeometry x="595" y="-597" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps379T2DEMAQOAS2OMpo-171" value="AWMS、WCS" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-985" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
