@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T09:01:02.458Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" etag="SA5ITfLMuEs6EBN-HM_P" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-05T09:51:21.522Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" etag="_xrShNExtQgxBXbiXuI9" version="14.2.9" type="github">
   <diagram id="tSahE8HauLd_56ZxBlCN" name="Page-1">
     <mxGraphModel dx="2295" dy="1925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,19 +86,34 @@
           <mxGeometry x="1188" y="-820" width="46" height="25" as="geometry" />
         </mxCell>
         <mxCell id="pSXNC7oPqVaKM3YzNo9T-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="pSXNC7oPqVaKM3YzNo9T-19" target="pSXNC7oPqVaKM3YzNo9T-23">
-          <mxGeometry x="-210" y="-890" as="geometry" />
+          <mxGeometry x="-210" y="-890" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="-638" />
+              <mxPoint x="1040" y="-663" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="pSXNC7oPqVaKM3YzNo9T-19" value="" style="shape=mxgraph.signs.tech.camera_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="1179" y="-660" width="50" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pSXNC7oPqVaKM3YzNo9T-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="pSXNC7oPqVaKM3YzNo9T-21" target="pSXNC7oPqVaKM3YzNo9T-23">
-          <mxGeometry x="-210" y="-890" as="geometry" />
+          <mxGeometry x="-210" y="-890" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="-579" />
+              <mxPoint x="1040" y="-663" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="pSXNC7oPqVaKM3YzNo9T-21" value="" style="shape=mxgraph.signs.tech.camera_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="1179" y="-601" width="50" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pSXNC7oPqVaKM3YzNo9T-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="pSXNC7oPqVaKM3YzNo9T-22" target="pSXNC7oPqVaKM3YzNo9T-23">
-          <mxGeometry x="-210" y="-890" as="geometry" />
+          <mxGeometry x="-210" y="-890" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="-695" />
+              <mxPoint x="1040" y="-663" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="pSXNC7oPqVaKM3YzNo9T-22" value="" style="shape=mxgraph.signs.tech.camera_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="1179" y="-717" width="50" height="44" as="geometry" />
@@ -391,6 +406,12 @@
           <mxGeometry x="0.0545" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pSXNC7oPqVaKM3YzNo9T-160" value="公有云" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="-1040" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pSXNC7oPqVaKM3YzNo9T-161" value="边缘中转场地" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="-900" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
